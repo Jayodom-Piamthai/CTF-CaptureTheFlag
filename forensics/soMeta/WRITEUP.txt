@@ -1,0 +1,4 @@
+viewing file data reveals that file contains text block inside the file,use cat command to view it
+or use exiftool to view its meta data and get artist name that was the flag
+
+picoCTF{s0_m3ta_d8944929}

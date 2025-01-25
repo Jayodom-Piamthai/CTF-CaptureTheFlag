@@ -1,0 +1,5 @@
+after getting the pacp file it can be input into aircrack with rockyou.txt
+as a wordlist use to crack it , we can find that the password for decryption
+is "mickeymouse" and thats the flag
+
+picoCTF{mickeymouse}

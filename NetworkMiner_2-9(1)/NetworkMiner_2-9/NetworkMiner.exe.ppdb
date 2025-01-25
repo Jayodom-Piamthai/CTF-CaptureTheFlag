@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Author: ace_fedora
+#NetworkMiner.exe
+#Rating=1-5
+export PW_VULKAN_USE="2"
+export PW_WINE_USE="PROTON_LG_9-19"
+export PW_PREFIX_NAME="DEFAULT"
+export PORTPROTON_NAME="NetworkMiner"
+export FILE_DESCRIPTION="NetworkMiner"
+export FILE_SHA256SUM="7b108b27b80ded3ae980080788aff76efcc9846e42402f6f2ccb7bb1af1419c5"

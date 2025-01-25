@@ -1,0 +1,11 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+64:20:E0:19:F3:0A, 2025-01-10 13:36:42, 2025-01-10 13:48:43, 36, 866, WPA2 WPA, CCMP, PSK, -38,       20,        0,   0.  0.  0.  0,  11, Thor2558-5G, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+5E:90:FB:BF:D8:FC, 2025-01-10 13:36:42, 2025-01-10 13:48:43, -31,      271, 64:20:E0:19:F3:0A,
+C2:6E:BB:11:58:EA, 2025-01-10 13:36:46, 2025-01-10 13:43:17, -35,       85, 64:20:E0:19:F3:0A,
+96:4C:57:FF:19:4C, 2025-01-10 13:36:46, 2025-01-10 13:36:47, -53,      192, 64:20:E0:19:F3:0A,
+52:EF:81:FB:BA:D4, 2025-01-10 13:36:56, 2025-01-10 13:44:57, -43,       21, 64:20:E0:19:F3:0A,
+12:A5:F9:3C:68:A7, 2025-01-10 13:41:43, 2025-01-10 13:41:49, -64,        7, 64:20:E0:19:F3:0A,
+

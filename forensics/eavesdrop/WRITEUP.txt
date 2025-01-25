@@ -1,0 +1,13 @@
+once inspecting pcap file we can see from tcp message that 
+file is sent through port 9000 so with "tcp.port == 9000"
+we can find one packet with salted__ in data which we can copy as 
+hex stream and insert into textfile
+we can also see the command use to decrypt the file in one of message
+in pcap package which we can use to get the flag,we first need to turn 
+salted data into binary file using  "xxd -r -p salt.txt file.des3"
+then we can use the command "openssl des3 -d -salt -in file.des3 -out out.txt -k supersecretpassword123" we founded to get the flag
+
+
+picoCTF{nc_73115_411_dd54ab67}
+**it is wrong,at least the last section is. dunno what goes wrong tho
+even flag from many source are differed and incorrect so,that's that

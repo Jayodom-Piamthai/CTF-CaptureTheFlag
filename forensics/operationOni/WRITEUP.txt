@@ -1,0 +1,39 @@
+use mmls to look into partion of the disk image
+
+$ mmls disk.img
+
+we can see the location of linux file system,etc will be in the 
+second partion so we can get in and into the root folder and grab the content of ssh file 
+
+//look into partition
+fls -o 206848 disk.img 
+
+//look into root/ directory
+fls -o 206848 disk.img 470
+
+//into ssh folder
+fls -o 206848 disk.img 3916
+
+//extract data from id file at address 2345 into text file
+icat -o 206848 disk.img 2345 > id_ed25519
+
+after getting the ssh key we need to make the file's permission inaccessible to any user 
+but root so we need to chmod it then insert it into ssh command
+
+//change permission
+chmod -v 700 id_ed25519
+
+//ssh into operationOni machine
+**dont forget to put the file name after ' -i ' 
+ssh -i id_ed25519 -p 51591 ctf-player@saturn.picoctf.net
+
+then just use ls and cat to grab the flag out of the text file
+
+picoCTF{k3y_5l3u7h_b5066e83}
+
+
+
+**progress note
+i thought it needed password for after ssh at first so i search for shadow file and tried to decrypt it with john and it didnt work 
+so i have to look up WRITEUP to realize that i was WAY off the mark
+

@@ -1,0 +1,3 @@
+
+
+Shodan - search engine for IOT vulnerability,actively scanning and looking for network vulnerability all across the internet on devices that are connected to the internet

@@ -1,0 +1,1 @@
+unzip go into dropin folder,switch branches and gather the flag pieces from  py files
