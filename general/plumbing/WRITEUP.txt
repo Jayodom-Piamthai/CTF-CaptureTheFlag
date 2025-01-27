@@ -1,0 +1,7 @@
+we can connect into the challenge link which will display hundreds of lines of text,one of them contain the flag 
+so we can just grep the outcome 
+
+nc jupiter.challenges.picoctf.org 14291 | grep picoCTF
+
+
+picoCTF{digital_plumb3r_ea8bfec7}

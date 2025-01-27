@@ -1,0 +1,7 @@
+by utilize srch_string library we can have it print out every line of data inside the .img file so all we need to do to find the flag
+ is to use this command on the img and greping "picoCTF"
+
+//finding the flag
+srch_strings dds1-alpine.flag.img | grep picoCTF
+
+picoCTF{f0r3ns1c4t0r_n30phyt3_a011c142}
